@@ -1,0 +1,31 @@
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.sidebar {
+  border: 1px solid #dadada;
+  border-radius: 0 4px 4px 0;
+  margin: 1rem;
+  padding: 2rem 0;
+  width: 10rem;
+  height: 80vh;
+}
+
+#sb-heading {
+  color: blueviolet;
+  text-transform: uppercase;
+  padding: 0 0.5rem;
+  font-size: 12px;
+  letter-spacing: 2px;
+}
+
+.sb-item {
+  padding: 0.5rem;
+  margin-bottom: 4px;
+  cursor: pointer;
+}
+
+.sb-item:hover {
+  font-weight: 600;
+  background-color: #f0f0f0;
+}
